@@ -1,6 +1,6 @@
 #Tiny HTML5 Music Player
  
-##Trying to keep it simple and under 10KB with no dependencies.
+####Trying to keep it simple and under 10KB with no dependencies.
 
 Tiny HTML5 Music Player is lightweight music player with no *dependencies*. You just need a modern HTML5 compatible browser such as Chrome, Firefox or IE9 and later.
 
