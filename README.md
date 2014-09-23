@@ -16,6 +16,7 @@ While being lightweight Tiny HTML5 Music Player has a couple features such as:
 * automatic scaling of the player depending on the div size
 * automatically play the next track when the current MP3 has finished playing
 * loop when all MP3 have played
+* size currently under 8KB
 
 If you want to generate waveforms for your MP3 you can use [SoX](http://sox.sourceforge.net/) and [gnuplot](http://www.gnuplot.info/), both available for free on Linux, Windows and OSX.
 
@@ -68,8 +69,8 @@ All you have to do is add a div tag with the id 'all_tracks', HTML sample:
 <!DOCTYPE html>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Tiny HTML5 Music Player by Themistokle Benetatos</title>
-<link rel="stylesheet" media="all" type="text/css" href="./css/tinyplayer.css">
-<script src="./js/tinyplayer.js"></script>
+<link rel="stylesheet" media="all" type="text/css" href="./css/tinyplayer-min.css">
+<script src="./js/tinyplayer-min.js"></script>
 <script>
 	TrackList = 
 		[
@@ -102,3 +103,11 @@ All you have to do is add a div tag with the id 'all_tracks', HTML sample:
 
 ##Screenshot:
 ![Tiny HTML5 Music Player](https://raw.githubusercontent.com/mrt-prodz/Tiny-HTML5-Music-Player/master/screenshot.jpg)
+
+##Demo:
+http://www.mrt-prodz.com/music
+
+##Reference:
+[Using Media Events to Add a Progress Bar](based on http://msdn.microsoft.com/en-us/library/ie/gg589528(v=vs.85).aspx)
+
+
