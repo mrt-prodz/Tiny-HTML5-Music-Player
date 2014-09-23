@@ -109,5 +109,6 @@ http://www.mrt-prodz.com/music
 
 ##Reference:
 [Using Media Events to Add a Progress Bar](http://msdn.microsoft.com/en-us/library/ie/gg589528(v=vs.85).aspx)
-
+[Javascript Minifier](http://javascript-minifier.com/)
+[CSS Minifier](http://cssminifier.com/)
 
