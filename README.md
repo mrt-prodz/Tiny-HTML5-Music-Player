@@ -50,16 +50,11 @@ tinyplayer(TrackList, true, true);
 All you have to do is add a div tag with the id 'all_tracks', HTML sample:
 ```HTML
 <!DOCTYPE html>
-<html lang="en-US">
-<head profile="http://www.w3.org/2005/10/profile">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Tiny HTML5 Music Player by Themistokle Benetatos</title>
-<meta name="description" content="Tiny HTML5 Music Player by Themistokle Benetatos: http://mrt-prodz.com">
 <link rel="stylesheet" media="all" type="text/css" href="./css/tinyplayer.css">
 <script src="./js/tinyplayer.js"></script>
 <script>
-	/* Tiny HTML5 Music Player by Themistokle Benetatos */
 	TrackList = 
 		[
 			{
