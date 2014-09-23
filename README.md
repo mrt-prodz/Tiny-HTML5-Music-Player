@@ -108,6 +108,6 @@ All you have to do is add a div tag with the id 'all_tracks', HTML sample:
 http://www.mrt-prodz.com/music
 
 ##Reference:
-[Using Media Events to Add a Progress Bar](based on http://msdn.microsoft.com/en-us/library/ie/gg589528(v=vs.85).aspx)
+[Using Media Events to Add a Progress Bar](http://msdn.microsoft.com/en-us/library/ie/gg589528(v=vs.85).aspx)
 
 
