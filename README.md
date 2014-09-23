@@ -4,6 +4,19 @@
 
 Tiny HTML5 Music Player is lightweight music player with no *dependencies*. You just need a modern HTML5 compatible browser such as Chrome, Firefox or IE9 and later.
 
+##Features:
+
+While being lightweight Tiny HTML5 Music Player has a couple features such as:
+
+* seek bar
+* colored progress on seek bar
+* colored buffered on seek bar
+* precise current time / total time of the MP3
+* keyboard shortcuts (toggle play/pause, next/previous, rewind)
+* automatic scaling of the player depending on the div size
+* automatically play the next track when the current MP3 has finished playing
+* loop when all MP3 have played
+
 If you want to generate waveforms for your MP3 you can use [SoX](http://sox.sourceforge.net/) and [gnuplot](http://www.gnuplot.info/), both available for free on Linux, Windows and OSX.
 
 ####Bash script to generate waveforms for all MP3 in the current directory:
@@ -28,7 +41,10 @@ rm test.datclean
 
 ##Usage:
 
+#####tinyplayer( [tracklist], [show waveform], [show help] )
+
 Import both tinyplayer.css and tinyplayer.js and add the following script to your page:
+
 ```JavaScript
 TrackList = 
 	[
