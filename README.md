@@ -44,7 +44,7 @@ rm test.datclean
 
 #####tinyplayer( [tracklist], [show waveform], [show help] )
 
-Import both tinyplayer.css and tinyplayer.js and add the following script to your page:
+Import both tinyplayer-min.css and tinyplayer-min.js and add the following script to your page:
 
 ```JavaScript
 TrackList = 
