@@ -6,7 +6,7 @@ Tiny HTML5 Music Player is lightweight music player with no *dependencies*. You 
 
 If you want to generate waveforms for your MP3 you can use [SoX](http://sox.sourceforge.net/) and [gnuplot](http://www.gnuplot.info/), both available for free on Linux, Windows and OSX.
 
-###Bash script to generate waveforms for all MP3 in the current directory:
+####Bash script to generate waveforms for all MP3 in the current directory:
 ```Bash
 #!/bin/bash
 # Generates waveforms of all mp3 in current folder
@@ -45,6 +45,48 @@ TrackList =
 	];
 //player([tracklist], [show waveform?], [show help?])
 tinyplayer(TrackList, true, true);
+```
+
+All you have to do is add a div tag with the id 'all_tracks', HTML sample:
+```HTML
+<!DOCTYPE html>
+<html lang="en-US">
+<head profile="http://www.w3.org/2005/10/profile">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Tiny HTML5 Music Player by Themistokle Benetatos</title>
+<meta name="description" content="Tiny HTML5 Music Player by Themistokle Benetatos: http://mrt-prodz.com">
+<link rel="stylesheet" media="all" type="text/css" href="./css/tinyplayer.css">
+<script src="./js/tinyplayer.js"></script>
+<script>
+	/* Tiny HTML5 Music Player by Themistokle Benetatos */
+	TrackList = 
+		[
+			{
+				url:'http://www.mrt-prodz.com/public/mp3/whwd.mp3',
+				title:'What Have We Done',
+				year:'2007'
+			},
+			{
+				url:'http://www.mrt-prodz.com/public/mp3/right-of-stupidity.mp3',
+				title:'Right of Stupidity',
+				year:'2004'
+			}
+		];
+		
+	//Make a player and display help
+	//player([tracklist], [show waveform?], [show help?])
+	tinyplayer(TrackList, true, true);
+</script>
+</head>
+<body>
+	<div class="wrapper">
+		<h2>Tiny HTML5 Mp3 Player</h2>
+		<div id="all_tracks"></div>
+	</div>
+</div>
+</body>
+</html>
 ```
 
 ##Screenshot:
