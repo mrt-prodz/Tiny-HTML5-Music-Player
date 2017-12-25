@@ -1,10 +1,10 @@
-#Tiny HTML5 Music Player
+# Tiny HTML5 Music Player
  
-####Trying to keep it simple and under 10KB with no dependencies.
+#### Trying to keep it simple and under 10KB with no dependencies.
 
 Tiny HTML5 Music Player is lightweight music player with no *dependencies*. You just need a modern HTML5 compatible browser such as Chrome, Firefox or IE9 and later.
 
-##Features:
+## Features:
 
 While being lightweight Tiny HTML5 Music Player has a couple features such as:
 
@@ -20,7 +20,7 @@ While being lightweight Tiny HTML5 Music Player has a couple features such as:
 
 If you want to generate waveforms for your MP3 you can use [SoX](http://sox.sourceforge.net/) and [gnuplot](http://www.gnuplot.info/), both available for free on Linux, Windows and OSX.
 
-####Bash script to generate waveforms for all MP3 in the current directory:
+#### Bash script to generate waveforms for all MP3 in the current directory:
 ```Bash
 #!/bin/bash
 # Generates waveforms of all mp3 in current folder
@@ -40,9 +40,9 @@ rm test.dat
 rm test.datclean
 ```
 
-##Usage:
+## Usage:
 
-#####tinyplayer( [tracklist], [show waveform], [show help] )
+##### tinyplayer( [tracklist], [show waveform], [show help] )
 
 Import both tinyplayer-min.css and tinyplayer-min.js and add the following script to your page:
 
@@ -101,13 +101,13 @@ All you have to do is add a div tag with the id 'all_tracks', HTML sample:
 </html>
 ```
 
-##Screenshot:
+## Screenshot:
 ![Tiny HTML5 Music Player](https://raw.githubusercontent.com/mrt-prodz/Tiny-HTML5-Music-Player/master/screenshot.jpg)
 
-##Demo:
+## Demo:
 http://www.mrt-prodz.com/music
 
-##Reference:
+## Reference:
 [Using Media Events to Add a Progress Bar](http://msdn.microsoft.com/en-us/library/ie/gg589528(v=vs.85).aspx)
 
 [Javascript Minifier](http://javascript-minifier.com/)
